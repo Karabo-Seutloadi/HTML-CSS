@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login2</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+	<body>
+
+		<div class="login">
+			<form>
+
+				<div class="head">
+					<h1 style="margin:10px ;color: white; text-align: center;">Login</h1>
+
+				</div>
+
+
+				<div class="username">
+					
+					<input type="text" placeholder="Username">
+					<i class='bx bxs-user'></i>	
+				</div>
+				<div class="password">
+					<input type="password" placeholder="Password">
+					<i class='bx bxs-lock-alt' ></i>
+				</div>
+
+				<div style="margin: 10px;">
+					<p style="color: white;"><input type="checkbox"> Do you remember me? <a href="" style="color: white;">Forgot Password</a></p>
+
+				</div>
+
+				<div style="margin: 10px;" class="lbutton">
+					<input type="button" value="Login">
+				</div>
+				
+				<div style="margin: 10px;" class="register">	
+					<p style="color: white;">Don't have an account<a href="" style="color: white;">Register</a></p>
+				</div>	
+
+
+			</form>
+		</div>
+</body>
+</html>
+
+<style type="text/css">
+	
+	body{
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+		background-image: url("HD-wallpaper-winter-landscape-snow-ice-mountain-lake-rocks-mountain-landscape.jpg");
+		
+		
+		border-image-width: 1200px;
+
+	}
+
+	div.login{
+
+		border: 1px solid white;
+		background-color: transparent;
+		border-radius: 10px;
+		padding: 20px;
+		
+	}
+
+
+	div.username input{
+		border-radius: 40px;
+		width: 250px;
+		padding: 10px;
+		margin: 19px;
+	}
+	div.password input{
+		border-radius: 40px;
+		width: 250px;
+		padding: 10px;
+		margin: 19px;
+	}
+
+	div.username input{
+		background-color: transparent;
+		border-color: white;
+		color: white;
+	}
+
+	div.password input{
+		background-color: transparent;
+		border-color: white;
+		color: white;
+	}
+	div.username input::placeholder{
+		color: white;
+	}
+	div.password input::placeholder{
+		color: white;
+	}
+	div.password i{
+		color: white;
+	}
+	div.username i{
+		color: white;
+	}
+	div.lbutton input{
+		width: 285px;
+		border-radius: 40px;
+		padding: 10px;
+		border-color: white;
+	}
+	div.register p{
+		text-align: center;
+	}
+
+
+
+
+</style>
+
